@@ -49,8 +49,8 @@ function Contact() {
                 </div>
                 <div className="contact-info-card-text">
                   <h3>Phone Numbers</h3>
-                  <p>Main Office: +234 XXX XXX XXXX</p>
-                  <p>Admissions: +234 XXX XXX XXXX</p>
+                  <p>Main Office: 08033019121</p>
+                  <p>Admissions: 09016955066</p>
                 </div>
               </div>
               <div className="contact-info-card">

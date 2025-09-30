@@ -1,6 +1,6 @@
 import "../Styles/Footer/footer.css";
 import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
-import { FaLocationDot } from "react-icons/fa6";
+import { FaLocationDot, FaSquareXTwitter } from "react-icons/fa6";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { MdOutlineMailOutline } from "react-icons/md";
 
@@ -20,14 +20,17 @@ function Footer() {
             </p>
           </div>
           <div className="info-div-links">
-            <a href="">
-              <FaFacebook style={{ color: "white" }} size="20" />
+            <a href="mailto:info@adolpaulcollege.edu.ng" target="_blank">
+              <MdOutlineMailOutline style={{ color: "white" }} size="30" />
             </a>
-            <a href="">
-              <FaTwitter style={{ color: "white" }} size="20" />
+            <a href="https://x.com/Adolpaulcoht?s=09" target="_blank">
+              <FaSquareXTwitter style={{ color: "black" }} size="30" />
             </a>
-            <a href="">
-              <FaInstagram style={{ color: "white" }} size="20" />
+            <a
+              href="https://www.instagram.com/adolpaulcoht?utm_source=qr&igsh=MzQ0YTJ6d2hnMXZ3"
+              target="_blank"
+            >
+              <FaInstagram style={{ color: "red" }} size="30" />
             </a>
           </div>
         </div>
@@ -66,7 +69,7 @@ function Footer() {
               Adol Paul College of Health Technology Utuh, Nigeria.
             </p>
             <p>
-              <BsFillTelephoneFill /> +234 XXX XXX XXXX
+              <BsFillTelephoneFill /> 08033019121
             </p>
             <p>
               <MdOutlineMailOutline /> info@adolpaulcollege.edu.ng
