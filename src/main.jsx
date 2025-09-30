@@ -37,7 +37,7 @@ let router = createBrowserRouter([
   },
 ]);
 createRoot(document.getElementById("root")).render(
-  <HashRouter>
+  <>
     <RouterProvider router={router} />
-  </HashRouter>
+  </>
 );

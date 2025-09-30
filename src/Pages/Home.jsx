@@ -22,7 +22,7 @@ function Home() {
               <span style={{ color: "red" }}> HEALTH </span>
               AND <span style={{ color: "red" }}>TECHNOLOGY</span>
             </h1>
-            <p>
+            <p style={{ maxWidth: "50ch" }}>
               Empowering healthcare professionals with world-class education and
               training in health technology. Located in Utuh, we're committed to
               excellence in healthcare education.
